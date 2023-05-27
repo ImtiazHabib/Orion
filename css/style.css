@@ -14,5 +14,213 @@ a,a:hover{
 	text-decoration: none;
 }
 /* Orion project code start*/
+.header{
+  width: 100%;
+}
+.header .header_top{
+  width: 100%;
+  background: url(../images/Top_bar_bg.png)center top no-repeat;
+  background-size:cover;
+        padding: 5px;
+}
+.header .header_top .location{
+   width: 100%;
+   color: white;
+    font-size: 13px;
+    font-weight: 700; 
+}
+.header .header_top .location .mycolor{
+	color: red;
+    padding-right: 5px;
+}
+
+.header .header_top .phone_and_email{
+ width: 100%;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: right;
+}
+.header .header_top .phone_and_email .fa{
+       color: red;
+       text-align: right;
+    padding-right: 4px;
+
+}
+.header .header_top .phone_and_email .fa-envelope{
+	margin-left: 10px;
+}
+.header .header_top .social_media{
+	text-align: center;
+    font-size: 14px;
+    color: white;
+    padding-left: 8px;
+}
+.header .header_top .social_media .fa{
+       padding-right: 9px;
+}
+
+
+.header_main .main-menu-section .bg-light{
+	background: transparent !important;
+}
+
+.header_main{
+	width: 100%;
+	background: url(../images/background_banner.png) center top no-repeat;
+	background-size: cover;
+	
+}
+.header_main .navbar-light .navbar-nav .active>.nav-link {
+    color: #fffefe;
+    background:url(../images/mh.png) center bottom no-repeat;
+  
+}
+.main-menu-section .navbar-brand img{
+	    width: 232px;
+    margin-left: -16px;
+}
+.header_main .navbar-light .navbar-nav .nav-link {
+    color: #fffefe;
+    margin: 0px 0px 0px 18px;
+}
+
+.header_main .navbar-light .navbar-nav .nav-link:hover {
+      color: #fffefe;
+      
+    background:url(../images/nav_menu_hover_effect.png) center top no-repeat;
+}
+
+/* banner content section*/
+.header_main .banner_content_section{
+    width: 100%;
+    text-align: center;
+    padding-top: 211px;
+    padding-bottom: 92px;
+}
+.header_main .banner_content_section .title_text{
+	
+}
+.header_main .banner_content_section .title_text h5{
+	color: white;
+    font-size: 63px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.header_main .banner_content_section .title_text h2{
+	color: white;
+    font-size: 32px;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.header_main .banner_content_section .banner-btn .btn{
+  color: white;
+    background: #c20505;
+    border: #c20505;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    padding: 12px 25px;
+    border-style: solid;
+    border-width: 2px;
+    transition: 1s;
+}
+.header_main .banner_content_section .banner-btn .btn:hover{
+	color: #c20505;
+    background: white;
+    border: #c20505;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    padding: 12px 25px;
+    border-style: solid;
+    border-width: 2px;
+
+}
+
+/* safety shop section start */
+.safety_shop{
+       width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 81px;
+    padding-right: 50px;
+
+}
+.safety_shop .safety_shop_picture img{
+	    width: 380px;
+    margin-left: 83px;
+
+}
+.safety_shop .safety_shop_content{
+	
+}
+.safety_shop .safety_shop_content .safety_shop_content_title_text{
+	
+}
+.safety_shop .safety_shop_content .safety_shop_content_title_text h2{
+	color: #404040;
+    font-size: 30px;
+    font-weight: 400;
+}
+.safety_shop .safety_shop_content .safety_shop_content_title_text p{
+	color: #bbbbbb;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 28px;
+    padding-top: 10px;
+    padding-bottom: 16px;
+}
+.safety_shop .safety_shop_content .safety_shop_content_btn .learn_more{
+   color: white;
+    background: #c20505;
+    border: #c20505;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    padding: 12px 25px;
+    border-style: solid;
+    border-width: 2px;
+    transition: 1s;
+}
+.safety_shop .safety_shop_content .safety_shop_content_btn .learn_more:hover{
+   color: #c20505;
+    background: white;
+    border: #c20505;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    padding: 12px 25px;
+    border-style: solid;
+    border-width: 2px;
+}
+.safety_shop .safety_shop_content .safety_shop_content_btn .get_in_touch{
+   color: #c20505;
+    background: white;
+    border: #c20505;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    padding: 12px 25px;
+    border-style: solid;
+    border-width: 2px;
+    margin-left: 11px;
+    transition: 1s;
+}
+.safety_shop .safety_shop_content .safety_shop_content_btn .get_in_touch:hover{
+    color: white;
+    background: #c20505;
+    border: #c20505;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    padding: 12px 25px;
+    border-style: solid;
+    border-width: 2px;
+}
+
+
+/* safety shop section end */
 
 /* Orion project code end*/
