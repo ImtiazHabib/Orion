@@ -1,6 +1,6 @@
 *{
 	padding:0px;
-	margin: 0px;
+	margin:0px;
 }
 body{
 	font-family: 'Mulish', sans-serif;
@@ -158,8 +158,11 @@ a,a:hover{
     padding-right: 50px;
 
 }
+.safety_shop .safety_shop_picture{
+    width: 100%;
+}
 .safety_shop .safety_shop_picture img{
-	    width: 380px;
+	    width: 68%;
     margin-left: 83px;
 
 }
@@ -512,7 +515,7 @@ a,a:hover{
 
 }
 .protection_section .protection_section_picture img{
-	    width: 380px;
+	    width: 68%;
     margin-left: 52px;
 
 }

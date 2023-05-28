@@ -1,0 +1,780 @@
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+  .header .header_top .location{
+  	    text-align: center;
+  }
+  .header .header_top .phone_and_email{
+  	   text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+  .main-menu-section .navbar-brand img {
+    width: 205px;
+    margin-left: -16px;
+  }
+  .header_main .banner_content_section {
+    width: 100%;
+    text-align: center;
+    padding-top: 109px;
+    padding-bottom: 92px;
+}
+.header_main .banner_content_section .title_text h5 {
+    color: white;
+    font-size: 54px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.header_main .banner_content_section .title_text h2 {
+    color: white;
+    font-size: 25px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.safety_shop {
+    width: 100%;
+    padding-top: 91px;
+    padding-bottom: 88px;
+    padding-left: 58px;
+    padding-right: 59px;
+}
+.safety_shop .safety_shop_picture img {
+    width: 109%;
+    margin-left: 0px;
+    padding-bottom: 20px;
+}
+.safety_shop .safety_shop_content .safety_shop_content_title_text h2 {
+    color: #404040;
+    font-size: 24px;
+    font-weight: 400;
+}
+.safety_shop_content_btn{
+	display: inline-block;
+}
+.safety_shop .safety_shop_content .safety_shop_content_btn .learn_more {
+    color: white;
+    background: #c20505;
+    border: #c20505;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    padding: 16px 22px;
+    border-style: solid;
+    border-width: 2px;
+    transition: 1s;
+}
+.safety_shop .safety_shop_content .safety_shop_content_btn .learn_more:hover{
+   color: #c20505;
+    background: white;
+    border: #c20505;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    padding: 16px 22px;
+    border-style: solid;
+    border-width: 2px;
+}
+.safety_shop .safety_shop_content .safety_shop_content_btn .get_in_touch {
+    color: #c20505;
+    background: white;
+    border: #c20505;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    padding: 16px 17px;
+    border-style: solid;
+    border-width: 2px;
+    margin-left: 11px;
+    transition: 1s;
+}
+.safety_shop .safety_shop_content .safety_shop_content_btn .get_in_touch:hover{
+    color: white;
+    background: #c20505;
+    border: #c20505;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    padding: 16px 17px;
+    border-style: solid;
+    border-width: 2px;
+}
+.certification_calibration_section {
+    width: 100%;
+    padding: 47px 0px;
+}
+.certification_calibration_section .certification_section .card-body .card-text {
+    color: #707070;
+    font-size: 17px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    padding: 4px;
+    text-align: justify;
+}
+.certification_calibration_section .certification_section {
+    width: 100%;
+    padding: 33px;
+    text-align: center;
+}
+.certification_calibration_section .calibration_section {
+    width: 100%;
+    padding: 36px;
+    text-align: center;
+}
+.certification_calibration_section .calibration_section .card-body .card-text {
+	color: #707070;
+    font-size: 17px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    padding: 4px;
+    text-align: justify;
+}
+.product_slider .title_text {
+    width: 100%;
+    text-align: center;
+    /* writing-mode: vertical-lr; */
+}
+.product_slider .title_text h5 {
+    color: white;
+    font-size: 49px;
+    font-weight: 300;
+    text-transform: uppercase;
+    /* transform: rotate(180deg); */
+}
+.product_slider .title_text h2 {
+    color: white;
+    font-size: 28px;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    font-weight: 300;
+    /* transform: rotate(180deg); */
+}
+.product_slider .product_slider_main {
+    width: 100%;
+    text-align: center;
+    padding-top: 9px;
+}
+.product_slider .product_slider_main img {
+    width: 47%;
+}
+.product_slider .product_slider_main h3 {
+    color: white;
+    font-size: 26px;
+    font-weight: 500;
+    padding: 26px 2px 9px 9px;
+    margin: 13px 2px 5px 8px;
+}
+.product_slider .product_slider_main p {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 2px 0px 22px 2px;
+    margin: 8px 38px 13px 41px;
+    line-height: 22px;
+}
+.protection_section {
+    width: 100%;
+    padding-top: 87px;
+    padding-bottom: 79px;
+    padding-left: 14px;
+    padding-right: 38px;
+}
+.protection_section .protection_section_content .protection_section_content_btn{
+    display: inline-block;
+}
+.protection_section .protection_section_content .protection_section_content_btn .learn_more{
+   color: white;
+    background: #c20505;
+    border: #c20505;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    padding: 16px 22px;
+    border-style: solid;
+    border-width: 2px;
+    transition: 1s;
+}
+.protection_section .protection_section_content .protection_section_content_btn .learn_more:hover{
+  color: #c20505;
+    background: white;
+    border: #c20505;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    padding: 16px 22px;
+    border-style: solid;
+    border-width: 2px;
+}
+.protection_section .protection_section_content .protection_section_content_btn .get_in_touch{
+   color: #c20505;
+    background: white;
+    border: #c20505;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    padding: 16px 17px;
+    border-style: solid;
+    border-width: 2px;
+    margin-left: 11px;
+    transition: 1s;
+}
+.protection_section .protection_section_content .protection_section_content_btn .get_in_touch:hover{
+   color: white;
+    background: #c20505;
+    border: #c20505;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    padding: 16px 17px;
+    border-style: solid;
+    border-width: 2px;
+}
+.protection_section .protection_section_picture img {
+    padding-top: 27px;
+    width: 83%;
+    margin-left: 52px;
+}
+.footer_section .footer_top .footer_logo {
+    width: 100%;
+    text-align: left;
+}
+.footer_bottom .powered_by {
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    font-weight: 200;
+}
+.footer_bottom .theme_name {
+    color: white;
+    font-size: 14px;
+    font-weight: 200;
+    text-align: center;
+}
+}
+/*888888888888888888888888888888888888888888888888888888*/
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+  .header .header_top .location{
+  	    text-align: center;
+  }
+  .header .header_top .phone_and_email{
+  	   text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+  .main-menu-section .navbar-brand img {
+    width: 205px;
+    margin-left: -16px;
+  }
+  .header_main .banner_content_section {
+    width: 100%;
+    text-align: center;
+    padding-top: 109px;
+    padding-bottom: 92px;
+}
+.header_main .banner_content_section .title_text h5 {
+    color: white;
+    font-size: 54px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.header_main .banner_content_section .title_text h2 {
+    color: white;
+    font-size: 25px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.safety_shop {
+    width: 100%;
+    padding-top: 91px;
+    padding-bottom: 88px;
+    padding-left: 58px;
+    padding-right: 59px;
+}
+.safety_shop .safety_shop_picture img {
+    width: 103%;
+    margin-left: 0px;
+    padding-bottom: 20px;
+}
+.safety_shop .safety_shop_content .safety_shop_content_title_text h2 {
+    color: #404040;
+    font-size: 27px;
+    font-weight: 400;
+    text-align: center;
+}
+.safety_shop_content_btn{
+	display: inline-block;
+}
+.safety_shop .safety_shop_content .safety_shop_content_btn .learn_more {
+    color: white;
+    background: #c20505;
+    border: #c20505;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    padding: 16px 22px;
+    border-style: solid;
+    border-width: 2px;
+    transition: 1s;
+}
+.safety_shop .safety_shop_content .safety_shop_content_btn .learn_more:hover{
+   color: #c20505;
+    background: white;
+    border: #c20505;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    padding: 16px 22px;
+    border-style: solid;
+    border-width: 2px;
+}
+.safety_shop .safety_shop_content .safety_shop_content_btn .get_in_touch {
+    color: #c20505;
+    background: white;
+    border: #c20505;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    padding: 16px 17px;
+    border-style: solid;
+    border-width: 2px;
+    margin-left: 11px;
+    transition: 1s;
+}
+.safety_shop .safety_shop_content .safety_shop_content_btn .get_in_touch:hover{
+    color: white;
+    background: #c20505;
+    border: #c20505;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    padding: 16px 17px;
+    border-style: solid;
+    border-width: 2px;
+}
+.certification_calibration_section {
+    width: 100%;
+    padding: 47px 0px;
+}
+.certification_calibration_section .certification_section .card-body .card-text {
+    color: #707070;
+    font-size: 17px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    padding: 4px;
+    text-align: center;
+}
+.certification_calibration_section .certification_section {
+    width: 100%;
+    padding: 33px;
+    text-align: center;
+}
+.certification_calibration_section .calibration_section {
+    width: 100%;
+    padding: 36px;
+    text-align: center;
+}
+.certification_calibration_section .calibration_section .card-body .card-text {
+	color: #707070;
+    font-size: 17px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    padding: 4px;
+    text-align: justify;
+}
+.product_slider .title_text {
+    width: 100%;
+    text-align: center;
+    /* writing-mode: vertical-lr; */
+}
+.product_slider .title_text h5 {
+    color: white;
+    font-size: 49px;
+    font-weight: 300;
+    text-transform: uppercase;
+    /* transform: rotate(180deg); */
+}
+.product_slider .title_text h2 {
+    color: white;
+    font-size: 28px;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    font-weight: 300;
+    /* transform: rotate(180deg); */
+}
+.product_slider .product_slider_main {
+    width: 100%;
+    text-align: center;
+    padding-top: 9px;
+}
+.product_slider .product_slider_main img {
+    width: 47%;
+}
+.product_slider .product_slider_main h3 {
+    color: white;
+    font-size: 26px;
+    font-weight: 500;
+    padding: 26px 2px 9px 9px;
+    margin: 13px 2px 5px 8px;
+}
+.product_slider .product_slider_main p {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 2px 0px 22px 2px;
+    margin: 8px 38px 13px 41px;
+    line-height: 22px;
+}
+.protection_section {
+    width: 100%;
+    padding-top: 87px;
+    padding-bottom: 79px;
+    padding-left: 14px;
+    padding-right: 38px;
+}
+.protection_section .protection_section_content .protection_section_content_btn{
+    display: inline-block;
+}
+.protection_section .protection_section_content .protection_section_content_btn .learn_more{
+   color: white;
+    background: #c20505;
+    border: #c20505;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    padding: 16px 22px;
+    border-style: solid;
+    border-width: 2px;
+    transition: 1s;
+}
+.protection_section .protection_section_content .protection_section_content_btn .learn_more:hover{
+  color: #c20505;
+    background: white;
+    border: #c20505;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    padding: 16px 22px;
+    border-style: solid;
+    border-width: 2px;
+}
+.protection_section .protection_section_content .protection_section_content_btn .get_in_touch{
+   color: #c20505;
+    background: white;
+    border: #c20505;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    padding: 16px 17px;
+    border-style: solid;
+    border-width: 2px;
+    margin-left: 11px;
+    transition: 1s;
+}
+.protection_section .protection_section_content .protection_section_content_btn .get_in_touch:hover{
+   color: white;
+    background: #c20505;
+    border: #c20505;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    padding: 16px 17px;
+    border-style: solid;
+    border-width: 2px;
+}
+.protection_section .protection_section_picture img {
+    padding-top: 27px;
+    width: 83%;
+    margin-left: 52px;
+}
+.footer_section .footer_top .footer_logo {
+    width: 100%;
+    text-align: left;
+}
+.footer_bottom .powered_by {
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    font-weight: 200;
+}
+.footer_bottom .theme_name {
+    color: white;
+    font-size: 14px;
+    font-weight: 200;
+    text-align: center;
+}
+}
+
+
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  .header .header_top .location{
+  	    text-align: center;
+  }
+  .header .header_top .phone_and_email{
+  	   text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+  .main-menu-section .navbar-brand img {
+    width: 205px;
+    margin-left: -16px;
+  }
+  .header_main .banner_content_section {
+    width: 100%;
+    text-align: center;
+    padding-top: 109px;
+    padding-bottom: 92px;
+}
+.header_main .banner_content_section .title_text h5 {
+    color: white;
+    font-size: 54px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.header_main .banner_content_section .title_text h2 {
+    color: white;
+    font-size: 25px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.safety_shop {
+    width: 100%;
+    padding-top: 91px;
+    padding-bottom: 88px;
+    padding-left: 58px;
+    padding-right: 59px;
+}
+.safety_shop .safety_shop_picture img {
+    width: 103%;
+    margin-left: 0px;
+    padding-bottom: 20px;
+}
+.safety_shop .safety_shop_content .safety_shop_content_title_text h2 {
+    color: #404040;
+    font-size: 27px;
+    font-weight: 400;
+    text-align: center;
+}
+.safety_shop_content_btn{
+	display: inline-block;
+}
+.safety_shop .safety_shop_content .safety_shop_content_btn .learn_more {
+    color: white;
+    background: #c20505;
+    border: #c20505;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    padding: 16px 22px;
+    border-style: solid;
+    border-width: 2px;
+    transition: 1s;
+}
+.safety_shop .safety_shop_content .safety_shop_content_btn .learn_more:hover{
+   color: #c20505;
+    background: white;
+    border: #c20505;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    padding: 16px 22px;
+    border-style: solid;
+    border-width: 2px;
+}
+.safety_shop .safety_shop_content .safety_shop_content_btn .get_in_touch {
+    color: #c20505;
+    background: white;
+    border: #c20505;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    padding: 16px 17px;
+    border-style: solid;
+    border-width: 2px;
+    margin-left: 11px;
+    transition: 1s;
+}
+.safety_shop .safety_shop_content .safety_shop_content_btn .get_in_touch:hover{
+    color: white;
+    background: #c20505;
+    border: #c20505;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    padding: 16px 17px;
+    border-style: solid;
+    border-width: 2px;
+}
+.certification_calibration_section {
+    width: 100%;
+    padding: 47px 0px;
+}
+.certification_calibration_section .certification_section .card-body .card-text {
+    color: #707070;
+    font-size: 17px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    padding: 4px;
+    text-align: center;
+}
+.certification_calibration_section .certification_section {
+    width: 100%;
+    padding: 33px;
+    text-align: center;
+}
+.certification_calibration_section .calibration_section {
+    width: 100%;
+    padding: 36px;
+    text-align: center;
+}
+.certification_calibration_section .calibration_section .card-body .card-text {
+	color: #707070;
+    font-size: 17px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    padding: 4px;
+    text-align: justify;
+}
+.product_slider .title_text {
+    width: 100%;
+    text-align: center;
+    /* writing-mode: vertical-lr; */
+}
+.product_slider .title_text h5 {
+    color: white;
+    font-size: 49px;
+    font-weight: 300;
+    text-transform: uppercase;
+    /* transform: rotate(180deg); */
+}
+.product_slider .title_text h2 {
+    color: white;
+    font-size: 28px;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    font-weight: 300;
+    /* transform: rotate(180deg); */
+}
+.product_slider .product_slider_main {
+    width: 100%;
+    text-align: center;
+    padding-top: 9px;
+}
+.product_slider .product_slider_main img {
+    width: 47%;
+}
+.product_slider .product_slider_main h3 {
+    color: white;
+    font-size: 26px;
+    font-weight: 500;
+    padding: 26px 2px 9px 9px;
+    margin: 13px 2px 5px 8px;
+}
+.product_slider .product_slider_main p {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 2px 0px 22px 2px;
+    margin: 8px 38px 13px 41px;
+    line-height: 22px;
+}
+.protection_section {
+    width: 100%;
+    padding-top: 87px;
+    padding-bottom: 79px;
+    padding-left: 14px;
+    padding-right: 38px;
+}
+.protection_section .protection_section_content .protection_section_content_btn{
+    display: inline-block;
+}
+.protection_section .protection_section_content .protection_section_content_btn .learn_more{
+   color: white;
+    background: #c20505;
+    border: #c20505;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    padding: 16px 22px;
+    border-style: solid;
+    border-width: 2px;
+    transition: 1s;
+}
+.protection_section .protection_section_content .protection_section_content_btn .learn_more:hover{
+  color: #c20505;
+    background: white;
+    border: #c20505;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    padding: 16px 22px;
+    border-style: solid;
+    border-width: 2px;
+}
+.protection_section .protection_section_content .protection_section_content_btn .get_in_touch{
+   color: #c20505;
+    background: white;
+    border: #c20505;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    padding: 16px 17px;
+    border-style: solid;
+    border-width: 2px;
+    margin-left: 11px;
+    transition: 1s;
+}
+.protection_section .protection_section_content .protection_section_content_btn .get_in_touch:hover{
+   color: white;
+    background: #c20505;
+    border: #c20505;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    padding: 16px 17px;
+    border-style: solid;
+    border-width: 2px;
+}
+.protection_section .protection_section_picture img {
+    padding-top: 27px;
+    width: 83%;
+    margin-left: 52px;
+}
+.footer_section .footer_top .footer_logo {
+    width: 100%;
+    text-align: left;
+}
+.footer_bottom .powered_by {
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    font-weight: 200;
+}
+.footer_bottom .theme_name {
+    color: white;
+    font-size: 14px;
+    font-weight: 200;
+    text-align: center;
+}
+}
