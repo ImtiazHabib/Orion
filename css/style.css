@@ -219,8 +219,196 @@ a,a:hover{
     border-style: solid;
     border-width: 2px;
 }
-
-
 /* safety shop section end */
+
+/*Quick Link Section start*/
+.quick_link{
+  width: 100%;
+}
+.quick_link .zero{
+	padding: 0px;
+}
+.quick_link .sales{
+	width: 100%;
+	background:url(../images/quick_link_sales_bg.png) center top no-repeat;
+}
+.quick_link .sales .inner_section{
+	text-align: center;
+    padding: 57px;
+}
+.quick_link .services .inner_section{
+	text-align: center;
+    padding: 53px;
+}
+
+.quick_link .sales .inner_section .icon-box{
+	
+}
+
+.quick_link .sales .inner_section h4,.quick_link .rentals .inner_section h4,.quick_link .services .inner_section h4{
+	color: white;
+    margin-top: 18px;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.quick_link .sales .inner_section p,.quick_link .rentals .inner_section p,.quick_link .services .inner_section p{
+	color: white;
+    font-size: 15px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+/*rentals*/
+.quick_link .rentals{
+	width: 100%;
+	background:url(../images/quick_link_rental_bg.png) center top no-repeat;
+}
+
+.quick_link .rentals .inner_section{
+	text-align: center;
+    padding: 53px;
+	    padding-top: 26px;
+}
+
+.quick_link .rentals .inner_section .icon-box{
+	
+}
+
+.quick_link .rentals .inner_section h4{
+	
+}
+
+.quick_link .rentals .inner_section p{
+	
+}
+/*services*/
+.quick_link .services{
+	width: 100%;
+	background:url(../images/quick_link_service_bg.png) center top no-repeat;
+}
+
+.quick_link .services .inner_section{
+	
+}
+
+.quick_link .services .inner_section .icon-box{
+	
+}
+
+.quick_link .services .inner_section h4{
+	
+}
+
+.quick_link .services .inner_section p{
+	
+}
+/*Quick Link Section end*/
+
+/*Certification and Calibration section start*/
+.certification_calibration_section{
+   width: 100%;
+   padding:80px 0px;
+}
+.certification_calibration_section .certification_section{
+	width: 100%;
+    padding: 46px;
+    text-align: center;
+}
+.certification_calibration_section .certification_section .card,.certification_calibration_section .calibration_section .card{
+	border:0px !important;
+	
+}
+.certification_calibration_section .certification_section .card-body .card-title{
+	    color: #404040;
+    margin-top: 17px;
+    font-size: 29px;
+    font-weight: 900;
+    margin-bottom: 17px;
+}
+.certification_calibration_section .certification_section .card-body .card-text{
+	    color: #707070;
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 28px;
+    padding: 4px;
+    text-align: center;
+}
+.certification_calibration_section .certification_section .card-body .btn{
+	color: white;
+    background: #c20505;
+    border: #c20505;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    padding: 12px 25px;
+    border-style: solid;
+    border-width: 2px;
+    transition: 1s;
+}
+.certification_calibration_section .certification_section .card-body .btn:hover{
+	color: #c20505;
+    background: white;
+    border: #c20505;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    padding: 12px 25px;
+    border-style: solid;
+    border-width: 2px;
+}
+/*calibration*/
+
+.certification_calibration_section .calibration_section{
+	width: 100%;
+    padding: 46px;
+    text-align: center;
+}
+.certification_calibration_section .calibration_section .card{
+	border:0px !important;
+	
+}
+.certification_calibration_section .calibration_section .card-body .card-title{
+	    color: #404040;
+    margin-top: 17px;
+    font-size: 29px;
+    font-weight: 900;
+    margin-bottom: 17px;
+}
+.certification_calibration_section .calibration_section .card-body .card-text{
+	    color: #707070;
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 28px;
+    padding: 4px;
+    text-align: center;
+}
+.certification_calibration_section .calibration_section .card-body .btn{
+	color: white;
+    background: #c20505;
+    border: #c20505;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    padding: 12px 25px;
+    border-style: solid;
+    border-width: 2px;
+    transition: 1s;
+}
+.certification_calibration_section .calibration_section .card-body .btn:hover{
+	color: #c20505;
+    background: white;
+    border: #c20505;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    padding: 12px 25px;
+    border-style: solid;
+    border-width: 2px;
+}
+/*Certification and Calibration section end*/
+
+
+
 
 /* Orion project code end*/
