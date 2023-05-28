@@ -6,6 +6,10 @@ body{
 	font-family: 'Mulish', sans-serif;
 	font-size: 14px;
 	line-height: 24px;
+	/* this is for overflow whitspace problem reduce*/
+	width: 100%;
+    height: 100%;
+	overflow-x: hidden;
 }
 h1,h2,h3,h4,h5,h6{
   font-family: 'Poppins', sans-serif;
@@ -13,6 +17,7 @@ h1,h2,h3,h4,h5,h6{
 a,a:hover{
 	text-decoration: none;
 }
+
 /* Orion project code start*/
 .header{
   width: 100%;
@@ -30,7 +35,7 @@ a,a:hover{
     font-weight: 700; 
 }
 .header .header_top .location .mycolor{
-	color: red;
+	color: #c20505;
     padding-right: 5px;
 }
 
@@ -42,7 +47,7 @@ a,a:hover{
     text-align: right;
 }
 .header .header_top .phone_and_email .fa{
-       color: red;
+       color: #c20505;
        text-align: right;
     padding-right: 4px;
 
@@ -58,6 +63,11 @@ a,a:hover{
 }
 .header .header_top .social_media .fa{
        padding-right: 9px;
+}
+
+.header .header_top .social_media .fa:hover{
+    color: Black;
+    font-size: 15px;
 }
 
 
@@ -408,6 +418,237 @@ a,a:hover{
 }
 /*Certification and Calibration section end*/
 
+/*product slider section start*/
+.product_slider{
+  width: 100%;
+  padding-top: 80px;
+  background: url(../images/product_section_bg.png)center top no-repeat;
+  background-size:cover;
+
+}
+.product_slider .title_text{
+	width: 100%;
+   text-align: center;
+    padding-left: 116px;
+   writing-mode: vertical-lr;
+}
+.product_slider .title_text h5{
+  color: white;
+    font-size: 58px;
+    font-weight: 300;
+    text-transform: uppercase;
+    transform: rotate(180deg);
+}
+.product_slider .title_text h2{
+  color: white;
+    font-size: 32px;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    font-weight: 300;
+    transform: rotate(180deg);
+}
+
+.product_slider .product_slider_main{
+      width: 100%;
+    text-align: center;
+}
+
+.product_slider .product_slider_main img{
+  width: 78%;
+}
+.product_slider .product_slider_main h3{
+  color: white;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 26px 2px 9px 9px;
+    margin: 13px 2px 5px 8px;
+}
+.product_slider .product_slider_main p{
+       color: white;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 2px 0px 22px 2px;
+    margin: 9px 2px 5px 6px;
+    line-height: 20px;
+}
+
+.product_slider .view_more_button{
+  width: 100%;
+  padding-top: 20px;
+  text-align: right;
+}
+.product_slider .view_more_button .btn{
+    color: white;
+    background: #c20505;
+    border: #c20505;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    padding: 12px 25px;
+    border-style: solid;
+    border-width: 2px;
+    transition: 1s;
+}
+.product_slider .view_more_button .btn:hover{
+    color: #c20505;
+    background: white;
+    border: #c20505;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    padding: 12px 25px;
+    border-style: solid;
+    border-width: 2px;
+}
+/*product slider section end*/
+
+/* protection_section section start */
+.protection_section{
+       width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 81px;
+    padding-right: 50px;
+
+}
+.protection_section .protection_section_picture img{
+	    width: 380px;
+    margin-left: 52px;
+
+}
+.protection_section .protection_section_content{
+	text-align: justify;
+    padding-left: 50px;
+}
+.protection_section .protection_section_content .protection_section_content_title_text{
+	
+}
+.protection_section .protection_section_content .protection_section_content_title_text h2{
+	color: #404040;
+    font-size: 30px;
+    font-weight: 400;
+}
+.protection_section .protection_section_content .protection_section_content_title_text p{
+	color: #bbbbbb;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 28px;
+    padding-top: 10px;
+    padding-bottom: 16px;
+}
+.protection_section .protection_section_content .protection_section_content_btn{
+	padding-top: 10px;
+}
+.protection_section .protection_section_content .protection_section_content_btn .learn_more{
+   color: white;
+    background: #c20505;
+    border: #c20505;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    padding: 12px 25px;
+    border-style: solid;
+    border-width: 2px;
+    transition: 1s;
+}
+.protection_section .protection_section_content .protection_section_content_btn .learn_more:hover{
+   color: #c20505;
+    background: white;
+    border: #c20505;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    padding: 12px 25px;
+    border-style: solid;
+    border-width: 2px;
+}
+.protection_section .protection_section_content .protection_section_content_btn .get_in_touch{
+   color: #c20505;
+    background: white;
+    border: #c20505;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    padding: 12px 25px;
+    border-style: solid;
+    border-width: 2px;
+    margin-left: 11px;
+    transition: 1s;
+}
+.protection_section .protection_section_content .protection_section_content_btn .get_in_touch:hover{
+    color: white;
+    background: #c20505;
+    border: #c20505;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    padding: 12px 25px;
+    border-style: solid;
+    border-width: 2px;
+}
+/* protection_section section end */
+
+/*footer section start*/
+.footer_section{
+  width: 100%;
+}
+.footer_section .footer_top{
+	 width: 100%;
+	 background: url(../images/footer_bg.png)center top no-repeat;
+   background-size:cover;
+   padding: 49px 0px;
+}
+.footer_section .footer_top .footer_address{
+	
+}
+.footer_section .footer_top .footer_address .list-group-item,.footer_section .footer_top .footer_timing .list-group-item{
+	color: white;
+    background: transparent;
+    font-size: 14px;
+    font-weight: 500;
+}
+.footer_section .footer_top .footer_address .list-group-item span,.footer_section .footer_top .footer_timing .list-group-item span{
+	font-weight: 900;
+}
+.footer_section .footer_top .footer_address .list-group-item .email_red{
+	color: #c20505;
+}
+.footer_section .footer_top .footer_timing .fa{
+	padding: 0px 6px;
+    color: #c20505;
+    font-size: 15px;
+    transition: 1s;
+}
+.footer_section .footer_top .footer_timing .fa:hover{
+	padding: 0px 6px;
+    color: white;
+    font-size: 15px;
+}
+.footer_section .footer_top .footer_logo{
+   width: 100%;
+    text-align: right;
+}
+.footer_section .footer_top .footer_logo img{
+	width: 71%;
+    padding-top: 32px;
+}
+.footer_bottom{
+	width: 100%;
+	background: black;
+	padding:3px 0px;
+}
+.footer_bottom .powered_by{
+   color: white;
+   font-size: 14px;
+   font-weight: 200;
+}
+.footer_bottom .theme_name{
+	color: white;
+   font-size: 14px;
+   font-weight: 200;
+   text-align: right;
+}
+/*footer section end*/
 
 
 
